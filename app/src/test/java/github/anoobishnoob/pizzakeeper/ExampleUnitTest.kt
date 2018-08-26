@@ -1,4 +1,4 @@
-package com.teamtreehouse.pizzakeeper
+package github.anoobishnoob.pizzakeeper
 
 import org.junit.Test
 

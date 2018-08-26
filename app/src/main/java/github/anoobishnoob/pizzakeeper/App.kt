@@ -1,20 +1,20 @@
-package com.teamtreehouse.pizzakeeper
+package github.anoobishnoob.pizzakeeper
 
 import android.app.Application
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import com.teamtreehouse.pizzakeeper.data.Topping
+import github.anoobishnoob.pizzakeeper.data.Topping
 
 val toppingBitmaps = mutableMapOf<Topping, Bitmap>()
 val toppings = mutableListOf (
-    Topping(1, "Pepperoni", "topping_pepperoni"),
-    Topping(2, "Sausage", "topping_sausage"),
-    Topping(3, "Green Peppers", "topping_green_pepper"),
-    Topping(4, "Onions", "topping_onion"),
-    Topping(5, "Mushrooms", "topping_mushroom"),
-    Topping(6, "Jalapeños", "topping_jalepeno"),
-    Topping(7, "Pineapple", "topping_pineapple"),
-    Topping(8, "Spinach", "topping_spinach")
+        Topping(1, "Pepperoni", "topping_pepperoni"),
+        Topping(2, "Sausage", "topping_sausage"),
+        Topping(3, "Green Peppers", "topping_green_pepper"),
+        Topping(4, "Onions", "topping_onion"),
+        Topping(5, "Mushrooms", "topping_mushroom"),
+        Topping(6, "Jalapeños", "topping_jalepeno"),
+        Topping(7, "Pineapple", "topping_pineapple"),
+        Topping(8, "Spinach", "topping_spinach")
 )
 
 

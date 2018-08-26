@@ -1,9 +1,9 @@
-package com.teamtreehouse.pizzakeeper
+package github.anoobishnoob.pizzakeeper
 
 import android.content.Context
 import android.graphics.*
 import android.view.View
-import com.teamtreehouse.pizzakeeper.data.Topping
+import github.anoobishnoob.pizzakeeper.data.Topping
 
 
 class PizzaView(context: Context, val toppings: MutableMap<Topping, Boolean>) : View(context) {

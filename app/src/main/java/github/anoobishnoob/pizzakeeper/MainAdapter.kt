@@ -1,4 +1,4 @@
-package com.teamtreehouse.pizzakeeper
+package github.anoobishnoob.pizzakeeper
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
-import com.teamtreehouse.pizzakeeper.data.Pizza
+import github.anoobishnoob.pizzakeeper.data.Pizza
 
 
 class MainAdapter(val launchCreatorActivity: (Int?) -> Unit) : RecyclerView.Adapter<MainAdapter.ViewHolder>() {

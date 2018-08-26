@@ -1,7 +1,7 @@
-package com.teamtreehouse.pizzakeeper
+package github.anoobishnoob.pizzakeeper
 
 import android.arch.lifecycle.ViewModel
-import com.teamtreehouse.pizzakeeper.data.Topping
+import github.anoobishnoob.pizzakeeper.data.Topping
 
 /**
  * Created by saqan on 8/26/2018.

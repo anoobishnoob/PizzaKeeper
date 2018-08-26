@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.teamtreehouse.pizzakeeper"
+<manifest package="com.anoobishnoob.pizzakeeper"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:name="com.teamtreehouse.pizzakeeper.App"
+        android:name="com.io.github.anoobishnoob.pizzakeeper.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.teamtreehouse.pizzakeeper.MainActivity">
+        <activity android:name="com.io.github.anoobishnoob.pizzakeeper.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.teamtreehouse.pizzakeeper.CreatorActivity"/>
+        <activity android:name="com.io.github.anoobishnoob.pizzakeeper.CreatorActivity"/>
     </application>
 
 </manifest>

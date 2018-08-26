@@ -1,12 +1,12 @@
-package com.teamtreehouse.pizzakeeper.data
+package github.anoobishnoob.pizzakeeper.data
 
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
-
+import java.util.*
 
 @Entity
-data class Topping (
+data class Pizza (
         @PrimaryKey val id: Int,
-        val name: String,
-        val drawableName: String
+    val name: String,
+    val creationDate: Date
 )
