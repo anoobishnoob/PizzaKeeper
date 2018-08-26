@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Switch
 import android.widget.TextView
+import com.anoobishnoob.pizzakeeper.R
 import github.anoobishnoob.pizzakeeper.data.Topping
 
 class CreatorAdapter(val pizzaView: PizzaView, val viewModel: CreatorViewModel): RecyclerView.Adapter<CreatorAdapter.ViewHolder>() {
