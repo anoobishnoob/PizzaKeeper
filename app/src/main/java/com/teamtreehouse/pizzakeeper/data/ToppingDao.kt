@@ -14,7 +14,7 @@ interface ToppingDao {
 
     @Query("select * from topping where id = :id")
     fun getToppingById(id: Int): Topping
-    
+
     @Insert
     fun insert(topping: Topping)
 }
