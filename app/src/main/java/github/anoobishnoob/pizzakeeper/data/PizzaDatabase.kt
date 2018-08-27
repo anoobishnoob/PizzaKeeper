@@ -12,7 +12,7 @@ import android.arch.persistence.room.TypeConverters
 @TypeConverters(DateConverter::class)
 abstract class PizzaDatabase: RoomDatabase() {
     abstract fun pizzaDao(): PizzaDao
-    abstract fun pizzaToppingDap(): PizzaToppingDao
+    abstract fun pizzaToppingDao(): PizzaToppingDao
     abstract fun ToppingDao(): ToppingDao
 
 
